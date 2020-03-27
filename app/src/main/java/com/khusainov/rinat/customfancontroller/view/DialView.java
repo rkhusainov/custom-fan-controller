@@ -1,4 +1,4 @@
-package com.khusainov.rinat.customfancontroller;
+package com.khusainov.rinat.customfancontroller.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,9 +10,11 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+import com.khusainov.rinat.customfancontroller.R;
+
 /**
  * @author Rinat Khusainov on 2020-03-27
- * <p>
+ *
  * Custom view представляет собой мультипозиоционную шкалу.
  * Каждый клик переключает на следующую позицию.
  * По умолчанию 4 позиции (0-3): 0 = Off, 1 = Low, 2 = Medium, 3 = High.
@@ -178,7 +180,7 @@ public class DialView extends View {
      */
     private float[] computeXYForPosition(final int pos, final float radius) {
         float[] result = mTempResult;
-        Double startAngle = Math.PI * (9 / 8d);
+        Double startAngle = Math.PI * (9 / 8d);    // Углы в радианах
         Double angle = startAngle + (pos * (Math.PI / 4));
         result[0] = (float) (radius * Math.cos(angle)) + (mWidth / 2);
         result[1] = (float) (radius * Math.sin(angle)) + (mHeight / 2);

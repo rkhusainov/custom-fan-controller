@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">CustomFanController</string>
     <string name="fan_control">Fan Control</string>
+    <string name="dial">Dial</string>
+    <string name="changeable_dial">Changeable dial</string>
+    <string name="action_settings">Selections</string>
+    <string name="dial_settings3">Selections: 3</string>
+    <string name="dial_settings4">Selections: 4</string>
+    <string name="dial_settings5">Selections: 5</string>
+    <string name="dial_settings6">Selections: 6</string>
+    <string name="dial_settings7">Selections: 7</string>
+    <string name="dial_settings8">Selections: 8</string>
+    <string name="dial_settings9">Selections: 9</string>
 </resources>

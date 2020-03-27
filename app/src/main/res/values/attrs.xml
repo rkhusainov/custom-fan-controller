@@ -4,4 +4,10 @@
         <attr name="fanOnColor" format="reference|color" />
         <attr name="fanOffColor" format="reference|color" />
     </declare-styleable>
+
+    <declare-styleable name="ChangeableDialView">
+        <attr name="fanOnColor2" format="reference|color" />
+        <attr name="fanOffColor2" format="reference|color" />
+        <attr name="selectionIndicators" format="integer" />
+    </declare-styleable>
 </resources>
